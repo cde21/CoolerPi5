@@ -8,7 +8,7 @@ nc -lk -p 8099 -e  echo -e 'HTTP/1.1 200 OK\r\nServer: DeskPiPro\r\nDate:$(date)
 
 # Fan configuration lines
 fan_config_lines=(
-"dtparam=fan_temp0=35000"
+"dtparam=fan_temp0=40000"
 "dtparam=fan_temp0_hyst=5000"
 "dtparam=fan_temp0_speed=75"
 
