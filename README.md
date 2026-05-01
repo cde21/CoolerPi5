@@ -53,6 +53,6 @@ Asegúrese de reemplazar las rutas en ambos comandos para que coincidan con las 
 
 
 # Créditos
-Adaptada del proyecto de sOckhamSter de https://github.com/sOckhamSter/Pi5FanEnabler.git
+Adaptada del proyecto de sOckhamSter de https://github.com/sOckhamSter/Pi5FanEnabler.git <br>
 Adapted from the work by adamoutler:<br>
 https://github.com/adamoutler/HassOSConfigurator
