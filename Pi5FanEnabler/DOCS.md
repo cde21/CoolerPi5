@@ -4,9 +4,9 @@ Habilita el ventilador activo de la Raspberry Pi 5 al ejecutar Home Assistant OS
 El conector del ventilador integrado de la Raspberry Pi 5 se controla mediante firmware y, por el momento, no puede controlarse con Home Assistant.<br>
 Este complemento modifica la configuración de arranque de Home Assistant para forzar el funcionamiento del ventilador. Lea atentamente las instrucciones de instalación, ya que requiere permisos de administrador para su ejecución.<br>
 La configuración establece cuatro umbrales de velocidad del ventilador:<br>
-35 °C: 40 % de velocidad<br>
-50 °C: 55 % de velocidad<br>
-60 °C: 69 % de velocidad<br>
+40 °C: 45 % de velocidad
+50 °C: 55 % de velocidad
+60 °C: 69 % de velocidad
 65 °C: 98 % de velocidad
 
 # Instalación
