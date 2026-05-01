@@ -12,7 +12,7 @@ La configuración establece cuatro umbrales de velocidad del ventilador:<br>
 # Instalación
 Primero, activa el Modo Avanzado: haz clic en tu nombre de usuario en la esquina inferior izquierda y luego activa el Modo Avanzado en Preferencias de Usuario.<br>
 En Home Assistant, haz clic en Configuración -> Aplicaciones -> Botón Instalar aplicación (abajo a la derecha) -> Haz clic en los tres puntos de la esquina superior derecha -> Selecciona «Repositorios».<br>
-Pega la URL de este repositorio: https://github.com/sOckhamSter/Pi5FanEnabler<br>
+Pega la URL de este repositorio: https://github.com/cde21/CoolerPi5.git<br>
 Instala la aplicación/complemento «Pi 5 Fan Enabler» y desactiva primero el Modo de Protección. Luego, pulsa el botón de inicio y observa los registros. Puedes desinstalar el complemento cuando termines.
 
 # Operación
