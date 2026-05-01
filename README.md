@@ -49,9 +49,10 @@ command_line:
       value_template: "{{((value | int) / 255 * 100) | round(0, 'common')}}"
       state_class: "measurement"
 ```
-Make sure you replace the paths in both commands to match the ones displayed in the add-on's logs.
+Asegúrese de reemplazar las rutas en ambos comandos para que coincidan con las que se muestran en ele add-on's logs.
 
 
-# Credits
+# Créditos
+Adaptada del proyecto de sOckhamSter de https://github.com/sOckhamSter/Pi5FanEnabler.git
 Adapted from the work by adamoutler:<br>
 https://github.com/adamoutler/HassOSConfigurator
