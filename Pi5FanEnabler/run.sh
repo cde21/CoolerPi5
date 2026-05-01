@@ -31,7 +31,7 @@ until false; do
 
   mkdir -p /tmp/nvme0n1p1 /tmp/mmcblk0p1 /tmp/sda1 /tmp/sdb1 2>/dev/null
   if [ ! -e /dev/sda1 ] && [ ! -e /dev/sdb1 ] && [ ! -e /dev/mmcblk0p1 ] && [ ! -e /dev/nvme0n1p1 ]; then
-    echo "nothing to do. Is protection mode enabled? You can't run this without disabling protection mode";
+    echo "No hay nada que hacer. ¿Está activado el modo de protección? No puedes ejecutar esto sin desactivar el modo de protección.";
     while true; do sleep 99999; done;
   fi;
 
@@ -79,13 +79,13 @@ until false; do
   done
 
   if [ -n "$fan_path" ]; then
-      echo "Use the following paths to create sensors in Home Assistant in accordance with the documentation:"
+      echo "Utilice las siguientes rutas para crear sensores en Home Assistant de acuerdo con la documentación:"
       echo "$fan_path"
       echo "$pwm_path"
   else
-      echo "no fan device found"
+      echo "No se encontró ningún cooler."
   fi
   echo ""
-  echo "Fan configuration complete. Perform a hard power-off reboot TWICE to activate."
+  echo "Configuración del cooler completada. Realice un reinicio con apagado forzado DOS VECES para activarlo.."
   sleep 99999
 done
